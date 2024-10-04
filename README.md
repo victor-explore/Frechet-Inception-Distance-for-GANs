@@ -26,12 +26,12 @@ Key aspects of FID:
 
 The FID score is calculated as:
 
-FID = ||μ_r - μ_g||^2 + Tr(Σ_r + Σ_g - 2√(Σ_r Σ_g))
+$$FID = ||μ_r - μ_g||^2 + Tr(Σ_r + Σ_g - 2√(Σ_r Σ_g))$$
 
 Where:
-- μ_r and μ_g are the mean feature vectors for real and generated images
-- Σ_r and Σ_g are the covariance matrices for real and generated images
-- Tr denotes the trace of a matrix (sum of diagonal elements)
+- $μ_r$ and $μ_g$ are the mean feature vectors for real and generated images
+- $Σ_r$ and $Σ_g$ are the covariance matrices for real and generated images
+- $Tr$ denotes the trace of a matrix (sum of diagonal elements)
 
 ## Interpretation
 
